@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+:root {
+  --success-color: #76b852;
+  --danger-color: #f04441; 
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: #455158;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  line-height: .8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-size: 20px;
+  text-align: center;
+  margin: 0 0 30px 0; 
+}
+
+.container{
+  background-color: #363657 ;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.5);
+  width: 400px;
+}
+
+.form{
+  padding: 30px 40px;
+}
+
+.form-control{
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label{
+  /* label by default inline so we will make them block element */
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form-control input{ 
+  border: 2px solid #132029;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #2c3e50;
+  color: #fff;
+  font-size: 14px;
+}
+
+.form-control input:focus{
+  outline: 0;
+  border-color: #09c2f5ef;
+}
+
+.form-control.success input{
+  border-color: var(--success-color);
+}
+
+.form-control.danger input{
+  border-color: var(--danger-color);
+}
+
+.form-control small{
+  color: var(--danger-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  margin-bottom: 5px;
+}
+
+.form-control.danger small{
+  visibility: visible;
+}
+
+.form button{
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  padding: 8px;
+  border-radius: 20px;
+  background-color: #276357;
+  border: 2px solid #276357;
+  font-size: 15px;
+  color:  #fff;
+  transition-duration: 0.4s;
+  margin-left: 70%;
+  margin-top: 20px;
+  width: 30%;
+}
