@@ -15,7 +15,9 @@ An expeirmental lab for simple HTML, CSS and JavaScript applications.
 ![Example screenshot](./movieList/movieList.png)
 * numberGuesser - A number guessing game using js.<br>
 ![Example screenshot](./numberGuesser/guess.png)
-
+* phoneList - An interactive js app too see your saved phone numbes in your phonebook. 
+* weightConverter - An interactive pound to kg, grams and ounces converter using js. 
+![Example screenshot](./weightConverter/weight.png)
 ## Technologies
 * HTML5
 * CSS3
