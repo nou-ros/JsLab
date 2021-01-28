@@ -28,4 +28,4 @@ An expeirmental lab for simple HTML, CSS and JavaScript applications.
 Project is: _in progress_
 
 ## Inspiration
-Projects inspired by Traversy(https://www.udemy.com/user/brad-traversy/), Jonas(https://www.udemy.com/user/jonasschmedtmann/) udemy courses, and various other youtube videos and w3school
+Projects inspired by [Traversy](https://www.udemy.com/user/brad-traversy/), [Jonas](https://www.udemy.com/user/jonasschmedtmann/) udemy courses, and various other youtube videos and w3school
