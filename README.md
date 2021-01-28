@@ -18,7 +18,14 @@ An expeirmental lab for simple HTML, CSS and JavaScript applications.
 * phoneList - An interactive js app too see your saved phone numbes in your phonebook. 
 * weightConverter - An interactive pound to kg, grams and ounces converter using js. 
 ![Example screenshot](./weightConverter/weight.png)
+
 ## Technologies
 * HTML5
 * CSS3
 * JS - ES5,ES6 & ES7
+
+## Status
+Project is: _in progress_
+
+## Inspiration
+Projects inspired by Traversy(https://www.udemy.com/user/brad-traversy/), Jonas(https://www.udemy.com/user/jonasschmedtmann/) udemy courses, and various other youtube videos and w3school
