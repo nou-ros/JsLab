@@ -6,8 +6,8 @@ An expeirmental lab for simple HTML, CSS and JavaScript applications.
 * chart__js - Chart js version-2 demo project.
 ![Example screenshot](./chart__js/chartjs.png)
 * contactFinder - Simple contact finder application using js.
-![Example screenshot](./contactFinder/contact_list.png)
-
+* githubFinder - Find github profiles using this mini apps. Used Ajax to handle github api call.
+![Example screenshot](./githubFinder/gitfind.png)
 ## Technologies
 * HTML5
 * CSS3
