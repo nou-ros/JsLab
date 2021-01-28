@@ -29,3 +29,9 @@ Project is: _in progress_
 
 ## Inspiration
 Projects inspired by [Traversy](https://www.udemy.com/user/brad-traversy/), [Jonas](https://www.udemy.com/user/jonasschmedtmann/) udemy courses, various youtube videos and w3school
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
