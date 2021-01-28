@@ -8,6 +8,9 @@ An expeirmental lab for simple HTML, CSS and JavaScript applications.
 * contactFinder - Simple contact finder application using js.
 * githubFinder - Find github profiles using this mini apps. Used Ajax to handle github api call.
 ![Example screenshot](./githubfinder/gitfind.png)
+* js_core - All the fundamentals of javascript coding
+* loadCalculator - Simple loan calculator using javascript fundamentals. 
+![Example screenshot](./loanCalculator/loanCalc.png)
 ## Technologies
 * HTML5
 * CSS3
