@@ -11,6 +11,8 @@ An expeirmental lab for simple HTML, CSS and JavaScript applications.
 * js_core - All the fundamentals of javascript coding
 * loadCalculator - Simple loan calculator using javascript fundamentals. 
 ![Example screenshot](./loanCalculator/loanCalc.png)
+* movieList - Add your movie watch list with this simple js app.
+![Example screenshot](./movieList/movieList.png)
 ## Technologies
 * HTML5
 * CSS3
