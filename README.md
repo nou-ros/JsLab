@@ -14,6 +14,7 @@ An expeirmental lab for simple HTML, CSS and JavaScript applications.
 * movieList - Add your movie watch list with this simple js app.
 ![Example screenshot](./movieList/movieList.png)
 * numberGuesser - A number guessing game using js.
+<br>
 ![Example screenshot](./numberGuesser/guess.png)
 
 ## Technologies
