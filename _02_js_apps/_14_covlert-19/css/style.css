@@ -1,0 +1,104 @@
+:root{
+    font-size: 16px;
+    font-family: 'Concert One', cursive;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #2fdaac;
+}
+
+body{
+    background-color: #f1f2f6 ;
+    color: #333;
+    margin:0;
+    padding: 0;
+    
+}
+
+.dark-mode{
+    background-color: #080808;
+}
+
+main{
+    margin-left: 5rem;
+    padding: .5rem;
+}
+
+.navbar{
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--bg-primary);
+}
+
+nav .navbar-nav li a{
+    color: var(--bg-secondary) !important;
+}
+
+nav .navbar-nav li a:hover{
+    color: #01a3a4  !important;
+}
+
+nav .navbar-nav li:last-child > a{
+    color: #bbc8d8 !important;
+}
+nav .navbar-nav li:last-child > a:hover{
+    color:  #ffffff!important;
+}
+
+
+nav .navbar-nav li:last-child{
+    position: absolute;
+    bottom: 0;
+}
+.navbar .closebtn {
+    position: absolute;
+    top: 3rem;
+    color: var(--bg-secondary) !important;
+    justify-self: center;
+  
+  }
+  
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: .2rem;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    main{
+        margin-left: 0;
+        padding: 0;
+        margin-top: 4rem;
+    }
+
+    .navbar{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        height: 4rem;
+    }
+    .navbar-nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav .navbar-nav li
+    {
+       padding-left: 2rem;
+    }
+    
+    nav .navbar-nav li:last-child{
+        position: absolute;
+        right: .5rem;
+    }
+    
+  }
+
+.t-dark {
+    background-color: #333 !important;
+    color: #fff !important;
+}
