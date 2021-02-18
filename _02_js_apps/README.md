@@ -3,19 +3,25 @@ An expeirmental lab for simple HTML, CSS and JavaScript applications.
 
 ## General info
 * animation - Demo practice of various js simple animations as well as font awesome animation with js
+
 * contactFinder - Simple contact finder application using js.
+
 * githubFinder - Find github profiles using this mini apps. Used Ajax to handle github api call.
 ![Example screenshot](./_09_githubfinder/gitfind.png)
-* js_core - All the fundamentals of javascript coding
+
 * loadCalculator - Simple loan calculator using javascript fundamentals. 
-![Example screenshot](./loanCalculator/loanCalc.png)
+![Example screenshot](./_10_loanCalculator/loanCalc.png)
+
 * movieList - Add your movie watch list with this simple js app.
-![Example screenshot](./movieList/movieList.png)
+![Example screenshot](./_11_movieList/movieList.png)
+
 * numberGuesser - A number guessing game using js.<br>
-![Example screenshot](./numberGuesser/guess.png)
+![Example screenshot](./_07_numberGuesser/guess.png)
+
 * phoneList - An interactive js app too see your saved phone numbes in your phonebook. 
+
 * weightConverter - An interactive pound to kg, grams and ounces converter using js. 
-![Example screenshot](./weightConverter/weight.png)
+![Example screenshot](./_13_weightConverter/weight.png)
 
 ## Technologies
 * HTML5
