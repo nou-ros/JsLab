@@ -1,9 +1,9 @@
 # JsLab
 Vanilla JS Construction Site
 
-*JS CORE 
+* JS CORE 
 --Fundamentals of JavaScript
-*JS APPS
+* JS APPS
 --Basic applications with JavaScript
-*ChartJS
+* ChartJS
 --Basic tryouts with chart.js
