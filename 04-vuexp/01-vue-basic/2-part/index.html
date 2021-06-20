@@ -1,0 +1,64 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <title>VueJS Course</title>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body>
+  <div id="app">
+    <label>
+      <input type="checkbox" v-model="isPurple"/> Purple
+    </label>
+
+    <select v-model="selectedColor">
+        <option value="">Default</option>
+        <option value="text-black">Black</option>
+        <option value="text-orange">Orange</option>
+    </select>
+
+    <!-- class binding & style binding -->
+    <div class="circle" :class="[selectedColor, circle_classes]" 
+    :style="{ width: size+'px', height: size+'px', lineHeight: size+'px'}">
+      Hi!
+    </div>
+
+    <!-- style binding -->
+    <input type="number" v-model="size">
+
+
+    <!-- conditional rendering -->
+    
+    <input type="number" v-model.number="mode">
+
+    <p v-if="mode === 1">Showing v-if directive</p>
+    <p v-else-if="mode === 2">Showing v-else-if directive</p>
+    <p v-else>Showing v-else directive</p>
+
+    <!-- v-show: display css will be none -->
+    <b v-show="mode === 1">V-show</b>
+
+    <!-- list rendering v-for -->
+    <ul>
+        <li v-for="(bird, index) in birds" :class="bird" :key="bird">
+            {{bird}} - {{ index }}
+        </li>
+    </ul>
+    <hr>
+
+    <ul>
+        <li v-for="anime in animes">
+            {{anime.title}} - {{anime.vol}}
+            <p v-for="(key, value) in anime.airDate">
+                {{key}} - {{value}}
+            </p>
+        </li>
+    </ul>
+  </div>
+
+  <script src="https://unpkg.com/vue@next"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

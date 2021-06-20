@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Vue Intro</title>
+</head>
+<body>
+    <!-- v-cloak is a directive, by using css with it we will hide our vue jargons
+        within a slow network.-->
+    <div id="app" v-cloak> 
+        <!-- data -->
+        {{ firstName }}
+        <br>
+        <!-- computed properties -->
+        {{ fullName }}
+        <hr />
+
+        <!-- data binding -->
+        <label>FirstName</label>
+        <input type="text" v-model="firstName"/>
+
+        <label>LastName</label>
+        <input type="text" v-model="lastName">
+
+        <!-- link (v-bind) -->
+        <p><a :href="url" target="_blank">Google</a></p>
+
+        <!-- raw html -->
+        <div v-html="raw_html"></div>
+
+        <!-- events and @click -->
+        <!-- type of data  -->
+        <p>{{ typeof age }}</p> 
+        <label>Age: </label>
+        <input type="number" v-model.number="age"> <!-- .number will preserve the data type for input fields. or it will change to string.-->
+        <!-- param -->
+        <button @click="add($event, 4)">Leap Year Increment</button> 
+        <!-- no param -->
+        <button @click="add($event)">Increment</button>
+        <button @click.prevent="age--">Decrement</button>
+
+        <br>
+        <!-- keyboard events -->
+        <label>Profession: </label>
+        <input type="text" @keyup.enter="showProfession">
+
+       
+    </div>
+
+    <!-- multiple vue instances -->
+    <!-- <div id="app2">
+        {{ firstName }} - {{ lastName }} 
+    </div> -->
+
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="app.js"></script>
+</body>
+</html>
